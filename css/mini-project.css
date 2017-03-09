@@ -1,0 +1,342 @@
+/* The Mini-project Stylesheet */
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:700,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background-color: #D5D8DC;
+    font-family: 'Open Sans', arial, sans-serif;
+    width: 1250px;
+    height: 2100px;
+    margin: 0 auto 0 auto;
+    padding-top: 12px;
+    
+    }
+
+section {
+    background-color: #FFFFFF;
+    color: #666;
+    font-family: 'Open Sans', arial, sans-serif;
+    width: 1250px;
+    height: 2200px;
+    }
+
+div.top {
+    background-image: url('../img/masthead.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    width: 1250px;
+    height: 1000px;
+}
+
+h1{
+    font-weight: normal;
+    margin: 18px 0 0 20px;
+    float: left;
+    width: 225px;
+    height: 65px;
+    background-image: url('../img/logo.svg');
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #FFFFFF;
+}
+
+header {
+    display: block;
+    height: 100px;
+    margin-bottom: 30px;
+    box-shadow: 1px 0px 1px #FFFFFF;
+    }
+
+.image {
+    margin: 170px 0 0px 575px;
+}
+
+
+
+
+h2 {
+    text-align: center;
+    font-size: 6em;
+    padding: 0;
+    letter-spacing: .02em;
+    color: #FFFFFF;
+}
+.top_middle {
+     margin: -20px 0 0 20px;
+}
+
+h3 {
+    text-align: center;
+    padding: 0;
+    letter-spacing: .02em;
+    color: #FFFFFF;
+}
+#find_more {
+    margin: 210px 0 0 40px;
+}
+
+#find_more_img img{
+    margin: 10px 0 0 620px;
+}
+
+#left {
+    position: absolute;
+    height: 628px;
+    width: 595px;
+    background-color: #536878;
+    
+    margin: 25px 0 0 40px;
+    padding: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#container-title {
+    text-align: left;
+    font-size: 60px;
+    margin: -15px 0 0 5px;
+    letter-spacing: -0.5px;
+}
+#container-body {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#container-end{
+    text-align: left;
+    font-size: 30px;
+    margin: -15px 0 0 5px;
+    letter-spacing: -1px;
+}
+
+.counter{
+    padding-bottom: 10px;
+}
+#first-number{
+    background-color: white;
+    height: 55px;
+    width: 55px;
+    padding-right: 30px;
+    margin: 30px 0 0 10px;
+    
+}
+#no1{
+    margin: -5px 0 0 15px;
+    font-size: 50px;
+    color: #09a4df;
+    text-align:center;
+}
+
+#second-number{
+    background-color: white;
+    height: 55px;
+    width: 55px;
+    margin: -55px 0 0 70px;
+}
+#no2{
+    margin: -5px 0 0 5px;
+    font-size: 50px;
+    color: #09a4df;
+    text-align:center;
+}
+#chronology{
+    color: white;
+    font-size: 22px;
+    margin: -45px 0 0 135px;
+    letter-spacing: 2px;
+}
+
+#container-apply{
+    margin: 25px 0 0 -380px;
+}
+
+#container-apply-right-arrow{
+    margin: -50px 0 0 155px;
+}
+
+
+
+
+
+/* jssor slider bullet navigator skin 01 css */
+/*
+ .jssorb01 div           (normal)
+ .jssorb01 div:hover     (normal mouseover)
+ .jssorb01 .av           (active)
+ .jssorb01 .av:hover     (active mouseover)
+ .jssorb01 .dn           (mousedown)
+ */
+.jssorb01 {
+    position: absolute;
+}
+.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 12px;
+    height: 12px;
+    filter: alpha(opacity=70);
+    opacity: .7;
+    overflow: hidden;
+    cursor: pointer;
+    border: #000 1px solid;
+}
+.jssorb01 div { background-color: gray; }
+.jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+.jssorb01 .av { background-color: #fff; }
+.jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+/* jssor slider arrow navigator skin 02 css */
+/*
+ .jssora02l                  (normal)
+ .jssora02r                  (normal)
+ .jssora02l:hover            (normal mouseover)
+ .jssora02r:hover            (normal mouseover)
+ .jssora02l.jssora02ldn      (mousedown)
+ .jssora02r.jssora02rdn      (mousedown)
+ .jssora02l.jssora02lds      (disabled)
+ .jssora02r.jssora02rds      (disabled)
+ */
+.jssora02l, .jssora02r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: url('img/a02.png') no-repeat;
+    overflow: hidden;
+}
+.jssora02l { background-position: -3px -33px; }
+.jssora02r { background-position: -63px -33px; }
+.jssora02l:hover { background-position: -123px -33px; }
+.jssora02r:hover { background-position: -183px -33px; }
+.jssora02l.jssora02ldn { background-position: -3px -33px; }
+.jssora02r.jssora02rdn { background-position: -63px -33px; }
+.jssora02l.jssora02lds { background-position: -3px -33px; opacity: .3; pointer-events: none; }
+.jssora02r.jssora02rds { background-position: -63px -33px; opacity: .3; pointer-events: none; }
+
+
+/* Loading Screen */
+.slider-title{
+    
+    color: #FFFFFF;
+    font-size: 60px;
+    top: 800px;
+    
+    margin: 375px 0 0 30px;
+    text-align: left;
+
+    letter-spacing: -0.5px;
+    z-index: 1;
+  
+}
+
+.slider-body{
+    
+    z-index: 1;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin: 10px 0 0 30px;
+
+}
+
+
+
+
+
+
+
+#bottom {
+    position: absolute;
+    height: 400px;
+    width: 1205px;
+    background-color: #09a4df;
+    
+    margin: 50px 0 0 30px;
+    padding: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#bottom-text-title {
+    text-align: left;
+    font-size: 50px;
+    margin: -15px 0 0 0px;
+}
+#bottom-text-body{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#bottom-text-button{
+    color: #FFFFFF;
+    font-size: 23px;
+}
+#bottom-text-right-arrow{
+    margin: -75px 0 0 330px;
+}
+
+#footer {
+    position: absolute;
+    height: 80px;
+    width: 1250px;
+    background-color: #05232f;
+    
+    margin: 475px 0 0 0px;
+    padding: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+#contact{
+    position: absolute;
+    text-align: right;
+    font-size: 24px;
+    color: #09a4df;
+    margin: -20px 0 0 1050px;
+}
+.social {
+    
+    display: inline-block;
+    float: left;
+    margin: -185px 0 0 -550px;
+}
+
+
+
+nav {
+    font-family: oswald, arial, sans-serif;
+    float: right;
+    width: 600px;
+    padding-top: 30px;
+    padding: 30px;
+    font-size: 1.4em;
+    text-align: right;
+    text-transform: uppercase;
+}
+nav a {
+    padding-left: 30px;
+    color: #BDBBB7;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font: 15px arial, sans-serif;
+    font-size: 15px;
+}
+nav a:hover, a.current {
+    color: #1488D3;}
+
+a {text-decoration: none; color: #000;}
+
+
+.navbar-fixed {
+    position: fixed;
+    top: -($nav-height);
+    width: 1250px;
+    background-color: #536878;
+    z-index: 1;
+}
